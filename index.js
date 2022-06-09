@@ -5,7 +5,6 @@ for (var i = 0; i < noDrums; i++) {
 }
 
 function handleClick() {
-  console.log(this.innerHTML)
   makeSound(this.innerHTML);
   buttonAnimation(this.innerHTML);
 }
